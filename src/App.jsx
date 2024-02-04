@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <main className="p-5 flex flex-col items-center">
         <h2>Posts</h2>
-        <section className="flex flex-col w-full items-center mt-4 max-w-postSize bg-green-300">
+        <section className="w-full flex flex-col gap-5 items-center mt-4 max-w-postSize">
           <Post />
         </section>
       </main>
